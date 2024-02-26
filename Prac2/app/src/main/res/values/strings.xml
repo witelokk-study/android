@@ -3,4 +3,5 @@
     <string name="next">Next</string>
     <string name="your_name">Your Name</string>
     <string name="hello">"Hello, %s"</string>
+    <string name="sdk_version">Your Android SDK version is %d</string>
 </resources>

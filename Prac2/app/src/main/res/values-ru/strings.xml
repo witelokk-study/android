@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prac2</string>
+    <string name="next">Далее</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="hello">"Привет, %s"</string>
+    <string name="sdk_version">Ваша версия Android SDK: %d</string>
+</resources>
