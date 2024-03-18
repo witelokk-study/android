@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Prac4</string>
-    <string name="first_last_name">First and Last Name</string>
-    <string name="next">Next</string>
-    <string name="day">Day</string>
-    <string name="time">Time</string>
-    <string name="comment">Comment</string>
-    <string name="ok">Ok</string>
-</resources>
