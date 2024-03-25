@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/test" android:checkableBehavior="single">
+        <item android:id="@+id/menu_fragment_1" android:title="Fragment 1" android:checked="true"/>
+        <item android:id="@+id/menu_fragment_2" android:title="Fragment 2" />
+        <item android:id="@+id/menu_fragment_3" android:title="Fragment 3" />
+    </group>
+    <group android:id="@+id/test2">
+        <item android:id="@+id/menu_open_bottom_navigation_activity" android:title="Bottom Navigation Bar Activity"></item>
+    </group>
+</menu>
