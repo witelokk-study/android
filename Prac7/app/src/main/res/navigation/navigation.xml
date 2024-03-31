@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment_music">
+
+    <fragment
+        android:id="@+id/fragment_music"
+        android:name="com.witelokk.prac7.MusicFragment"
+        android:label="MusicFragment" >
+        <action
+            android:id="@+id/action_musicFragment_to_dialogsFragment"
+            app:destination="@id/fragment_dialogs" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_dialogs"
+        android:name="com.witelokk.prac7.DialogsFragment"
+        android:label="DialogsFragment" >
+        <action
+            android:id="@+id/action_dialogsFragment_to_musicFragment"
+            app:destination="@id/fragment_music" />
+    </fragment>
+</navigation>
